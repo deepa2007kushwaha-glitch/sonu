@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudyHub - Learn & Grow</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <span>Study<span class="logo-blue">Hub</span></span>
+            </a>
+
+
+            <!-- Navigation -->
+            <nav class="nav-menu">
+
+                <a href="index.html" class="nav-link active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+
+
+                <a href="notice.html" class="nav-link">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <span>Notice</span>
+                </a>
+
+
+                <a href="courses.html" class="nav-link">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>Courses</span>
+                </a>
+
+
+                <!-- STUDY DROPDOWN -->
+                <div class="dropdown">
+
+                    <button class="nav-link dropdown-btn">
+
+                        <i class="fa-solid fa-book"></i>
+
+                        <span>Study</span>
+
+                        <i class="fa-solid fa-chevron-down arrow"></i>
+
+                    </button>
+
+
+                    <div class="dropdown-menu">
+
+                        <a href="notes.html">
+                            <i class="fa-solid fa-file-lines"></i>
+                            Notes
+                        </a>
+
+                        <a href="videos.html">
+                            <i class="fa-solid fa-circle-play"></i>
+                            Videos
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <a href="resources.html" class="nav-link">
+
+                    <i class="fa-solid fa-file"></i>
+
+                    <span>Resources</span>
+
+                </a>
+
+
+                <a href="profile.html" class="nav-link">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <span>Profile</span>
+
+                </a>
+
+
+                <a href="login.html" class="nav-link login-btn">
+
+                    <i class="fa-solid fa-right-to-bracket"></i>
+
+                    <span>Login</span>
+
+                </a>
+
+
+                <a href="signup.html" class="signup-btn">
+
+                    <i class="fa-solid fa-user-plus"></i>
+
+                    Sign Up
+
+                </a>
+
+            </nav>
+
+
+            <!-- Mobile menu -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+
+        <!-- ================= HERO SECTION ================= -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <p class="small-heading">
+                        WELCOME TO STUDYHUB
+                    </p>
+
+
+                    <h1>
+                        Learn Today,
+                        <br>
+
+                        <span>Build a Better Tomorrow</span>
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        Your one stop destination for
+                        Notes, Videos, Courses and
+                        all Study Resources.
+
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="courses.html" class="primary-btn">
+
+                            Explore Now
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+
+                        <a href="notes.html" class="secondary-btn">
+
+                            Study Now
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero Image -->
+
+                <div class="hero-image">
+
+                    <img src="assets/hero.jpg" alt="Study Image">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= IMPORTANT NOTES ================= -->
+
+        <section class="important-section">
+
+            <div class="section-header">
+
+                <div>
+
+                    <div class="section-title">
+
+                        <div class="title-icon">
+
+                            <i class="fa-solid fa-bullhorn"></i>
+
+                        </div>
+
+                        <h2>Important Notes</h2>
+
+                    </div>
+
+
+                    <p>
+                        Stay updated with the latest notices,
+                        announcements and important study material.
+                    </p>
+ 
+                </div>
+
+
+                <a href="notice.html" class="view-all">
+
+                    View All
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- NOTES CARDS -->
+
+            <div class="notes-grid">
+
+
+                <!-- CARD 1 -->
+
+                <div class="note-card">
+
+                    <div class="note-top">
+
+                        <div class="note-icon red">
+
+                            <i class="fa-solid fa-bullhorn"></i>
+
+                        </div>
+
+                        <span class="badge red-badge">
+                            Notice
+                        </span>
+
+                        <span class="date">
+                            05 Oct 2026
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Exam Schedule Released
+                    </h3>
+
+
+                    <p>
+                        The final exam schedule for all
+                        courses has been released.
+                        Please check your respective
+                        course section for details.
+                    </p>
+
+
+                    <a href="notice.html" class="read-more red-text">
+
+                        Read More
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>6
+
+
+
+                <!-- CARD 2 -->
+
+                <div class="note-card">
+
+                    <div class="note-top">
+
+                        <div class="note-icon orange">
+
+                            <i class="fa-solid fa-star"></i>
+
+                        </div>
+
+                        <span class="badge orange-badge">
+                            Important
+                        </span>
+
+                        <span class="date">
+                            03 Oct 2026
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Study Material Update
+                    </h3>
+
+
+                    <p>
+                        New notes and video lectures
+                        have been added for Mathematics
+                        and Science subjects.
+                    </p>
+
+
+                    <a href="notes.html" class="read-more orange-text">
+
+                        Read More
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- CARD 3 -->
+
+                <div class="note-card">
+
+                    <div class="note-top">
+
+                        <div class="note-icon blue">
+
+                            <i class="fa-solid fa-bell"></i>
+
+                        </div>
+
+                        <span class="badge blue-badge">
+                            Notification
+                        </span>
+
+                        <span class="date">
+                            01 Oct 2026
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Holiday Notice
+                    </h3>
+
+
+                    <p>
+                        Important holiday and academic
+                        schedule updates will be displayed
+                        here for students.
+                    </p>
+
+
+                    <a href="notice.html" class="read-more blue-text">
+
+                        Read More
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- CARD 4 -->
+
+                <div class="note-card">
+
+                    <div class="note-top">
+
+                        <div class="note-icon purple">
+
+                            <i class="fa-solid fa-book-open"></i>
+
+                        </div>
+
+                        <span class="badge purple-badge">
+                            Course
+                        </span>
+
+                        <span class="date">
+                            28 Sep 2026
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        New Courses Added
+                    </h3>
+
+
+                    <p>
+                        New courses have been added.
+                        Explore the Courses section and
+                        start learning today.
+                    </p>
+
+
+                    <a href="courses.html" class="read-more purple-text">
+
+                        Read More
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= QUICK STUDY ================= -->
+
+        <section class="quick-study">
+
+            <div class="quick-heading">
+
+                <p class="small-heading">
+                    START LEARNING
+                </p>
+
+                <h2>
+                    Everything You Need to Study
+                </h2>
+
+            </div>
+
+
+            <div class="quick-grid">
+
+
+                <a href="notes.html" class="quick-card">
+
+                    <div class="quick-icon">
+
+                        <i class="fa-solid fa-file-lines"></i>
+
+                    </div>
+
+                    <h3>Notes</h3>
+
+                    <p>
+                        Read and revise important
+                        study notes.
+                    </p>
+
+                    <span>
+                        Explore Notes
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </a>
+
+
+
+                <a href="videos.html" class="quick-card">
+
+                    <div class="quick-icon">
+
+                        <i class="fa-solid fa-circle-play"></i>
+
+                    </div>
+
+                    <h3>Videos</h3>
+
+                    <p>
+                        Learn through educational
+                        video lectures.
+                    </p>
+
+                    <span>
+                        Watch Videos
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </a>
+
+
+
+                <a href="courses.html" class="quick-card">
+
+                    <div class="quick-icon">
+
+                        <i class="fa-solid fa-graduation-cap"></i>
+
+                    </div>
+
+                    <h3>Courses</h3>
+
+                    <p>
+                        Explore courses and improve
+                        your skills.
+                    </p>
+
+                    <span>
+                        View Courses
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </a>
+
+
+
+                <a href="resources.html" class="quick-card">
+
+                    <div class="quick-icon">
+
+                        <i class="fa-solid fa-folder-open"></i>
+
+                    </div>
+
+                    <h3>Resources</h3>
+
+                    <p>
+                        Find useful study resources
+                        in one place.
+                    </p>
+
+                    <span>
+                        View Resources
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+
+                <i class="fa-solid fa-graduation-cap"></i>
+
+                <span>
+                    Study<span>Hub</span>
+                </span>
+
+            </div>
+
+
+            <div class="footer-line"></div>
+
+
+            <p>
+                Keep Learning
+            </p>
+
+            <span>•</span>
+
+            <p>
+                Keep Growing
+            </p>
+
+            <span>•</span>
+
+            <p>
+                StudyHub
+            </p>
+
+
+            <div class="footer-line"></div>
+
+        </div>
+
+
+        <p class="copyright">
+
+            © 2026 StudyHub. All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
